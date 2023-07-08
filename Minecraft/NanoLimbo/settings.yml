@@ -1,0 +1,58 @@
+#
+#  NanoLimbo MC server!
+#  Nastavení od LiveZone.cz
+#
+
+bind:
+    ip: 0.0.0.0
+    port: 25565
+bossBar:
+    color: BLUE
+    division: SOLID
+    enable: true 
+    health: 1
+    text: '{"text": "BossBar - LiveZone.cz"}'
+brandName:
+    content: NanoLimbo Server
+    enable: true
+debugLevel: 2
+dimension: OVERWORLD
+gameMode: 3
+headerAndFooter:
+    enable: false
+    footer: '{"text": "&eHosted on &9LiveZone.cz"}'
+    header: '{"text": "&eNanoLimbo server!"}'
+infoForwarding:
+    secret: <YOUR_SECRET_HERE>
+    tokens:
+        - <BUNGEE_GUARD_TOKEN>
+    type: NONE
+joinMessage:
+    enable: true
+    text: '{"text": "&eJoin Message, LiveZone.cz :)"}'
+maxPlayers: 100
+netty:
+    threads:
+        bossGroup: 1
+        workerGroup: 4
+    useEpoll: true
+ping:
+    description: '{"text": "&eHosted on &9LiveZone.cz \n§eNanoLimboServer"}'
+    version: NanoLimbo
+playerList:
+    enable: false
+    username: ZmenitUsernamePripojenehoHrace
+readTimeout: 30000
+spawnPosition:
+    pitch: 0
+    x: 0
+    "y": 64
+    yaw: 0
+    z: 0
+title:
+    enable: true
+    fadeIn: 10
+    fadeOut: 10
+    stay: 100
+    subtitle: '{"text": "&eHosted on &9LiveZone.cz"}'
+    title: '{"text": "&9&lJoin Title"}'
